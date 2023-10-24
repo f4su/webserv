@@ -1,0 +1,86 @@
+<!-- FILEPATH: /Users/umartin-/Desktop/42Cursus/WebServ/html/index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cars - La Película</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff6600;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+        }
+        img {
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cars - La Película</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#resumen">Resumen</a></li>
+            <li><a href="#personajes">Personajes</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#trailer">Tráiler</a></li>
+        </ul>
+    </nav>
+    <div class="container" id="resumen">
+        <h2>Resumen</h2>
+        <p>"Cars" es una película de animación de Disney Pixar que sigue las aventuras de Rayo McQueen, un coche de carreras, mientras se pierde en la Ruta 66 y encuentra un pequeño pueblo llamado Radiador Springs. A lo largo de la película, Rayo aprende lecciones valiosas sobre la amistad y el valor de las cosas importantes en la vida.</p>
+    </div>
+    <div class="container" id="personajes">
+        <h2>Personajes</h2>
+        <ul>
+            <li>Rayo McQueen</li>
+            <li>Mater</li>
+            <li>Sally Carrera</li>
+            <li>Doc Hudson</li>
+            <li>Flo</li>
+        </ul>
+    </div>
+    <div class="container" id="galeria">
+        <h2>Galería</h2>
+        <img src="rayo_mcqueen.jpg" alt="Rayo McQueen">
+        <img src="mater.jpg" alt="Mater">
+        <img src="sally.jpg" alt="Sally Carrera">
+    </div>
+    <div class="container" id="trailer">
+        <h2>Tráiler</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+    </div>
+</body>
+</html>
